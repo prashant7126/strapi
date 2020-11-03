@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "name": "Categories",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "global": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.token"
+    },
+    "alias": {
+      "type": "component",
+      "repeatable": true,
+      "component": "alias.token"
+    }
+  }
+}

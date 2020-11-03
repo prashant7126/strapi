@@ -1,0 +1,32 @@
+{
+  "collectionName": "unit",
+  "info": {
+    "name": "unit",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ios": {
+      "type": "enumeration",
+      "enum": [
+        "UIColor",
+        "CGFloat"
+      ]
+    },
+    "android": {
+      "type": "enumeration",
+      "enum": [
+        "color",
+        "demin"
+      ]
+    },
+    "web": {
+      "type": "enumeration",
+      "enum": [
+        "color",
+        "demin"
+      ]
+    }
+  }
+}

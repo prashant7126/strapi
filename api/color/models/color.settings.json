@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "colors",
+  "info": {
+    "name": "color",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": false,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "version": {
+      "type": "string"
+    },
+    "global": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.token"
+    },
+    "alias": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.token"
+    }
+  }
+}

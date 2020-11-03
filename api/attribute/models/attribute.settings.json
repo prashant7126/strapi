@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "attributes",
+  "info": {
+    "name": "attribute",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "new_name": {
+      "type": "uid",
+      "targetField": "name"
+    }
+  }
+}

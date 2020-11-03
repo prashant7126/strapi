@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/attribute",
+      "handler": "attribute.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/attribute",
+      "handler": "attribute.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/attribute",
+      "handler": "attribute.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
